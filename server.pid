@@ -1,0 +1,5 @@
+1503
+
+#to kill a server that is not responding use: 
+	# lsof -wni tcp:3000 to find the PID number and
+	# kill -9 pid_number

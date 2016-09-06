@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Marissa's Blog</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/
+libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+
+<style type="text/css">
+
+	.header {
+		height           : 6em;
+		padding          : 0.5px 0 0.5px 0;
+		margin           : -10px -10px 15px -10px;
+		text-align       : center;
+		background-color : #262626;
+
+	}
+	
+	.header_text {
+		color         : #ffffff;
+		margin-bottom : -20px;
+		padding       : auto;
+		font-family   : "Times New Roman", Times, serif;
+		font-size     : 2em;
+	}
+
+	.header_text2 {
+		color       : #a6a6a6;
+		padding     : 0px 4px 0px 0px;
+		font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		font-size   : 1.3em;
+		line-height : 0.8em;
+	}
+
+	.box {
+		background-color : #FFFFFF;
+		border           : 0.5px solid grey;
+		padding          : 15px 35px 15px 25px;
+		position         : static;
+		overflow-x       : scroll;	
+	}
+
+	.footer {
+		height           : 3em;
+		padding          : 10px 0 10px 0;
+		margin           : 500px -100px -1000px -100px;
+		text-align       : center;
+		background-color : #262626;
+		position         : static;
+		float            : bottom;
+	}
+
+</style>
+</head>
+
+
+<body>
+
+
+
+
+<%= yield %>
+
+
+
+</body>
+</html>
