@@ -61,15 +61,10 @@ libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
 
 
 <body>
-<% flash.each do |name, msg| %>
-	<ul>
-		<li><%= msg %> </li>
-	</ul>
-<% end %>
+	<%= render 'layouts/messages' %>
 
 
-
-<%= yield %>
+	<%= yield %>
 
 
 
