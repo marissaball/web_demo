@@ -12,15 +12,6 @@
 libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
 
 <style type="text/css">
-
-	.header {
-		height           : 6em;
-		padding          : 0.5px 0 0.5px 0;
-		margin           : -10px -10px 15px -10px;
-		text-align       : center;
-		background-color : #262626;
-
-	}
 	
 	.header_text {
 		color         : #ffffff;
@@ -46,18 +37,6 @@ libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
 		overflow-x       : scroll;	
 	}
 
-	.footer {
-		height           : 3em;
-		padding          : 10px 0 10px 0;
-		margin           : 500px -100px -1000px -100px;
-		text-align       : center;
-		background-color : #262626;
-		position         : static;
-		float            : bottom;
-		text-decoration: none;
-		color:white;
-	}
-
 
 </style>
 </head>
@@ -65,10 +44,15 @@ libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
 
 <body>
 
+	<%= render 'layouts/navigation' %>
+
 	<%= render 'layouts/messages' %>
 
-	<%= yield %>
+	<div class="container">
 
+	<%= yield %>
+	
+	</div>
 
 
 </body>
