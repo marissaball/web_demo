@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Marissa's Blog</title>
+  <title>Blog</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -54,15 +54,18 @@ libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
 		background-color : #262626;
 		position         : static;
 		float            : bottom;
+		text-decoration: none;
+		color:white;
 	}
+
 
 </style>
 </head>
 
 
 <body>
-	<%= render 'layouts/messages' %>
 
+	<%= render 'layouts/messages' %>
 
 	<%= yield %>
 
