@@ -6,14 +6,39 @@ $navbar-default-bg: #262626;
 
 
 #logo {
-	float:left;
-	font-size:1.7em;
-	color: #ffffff;
-	letter-spacing: -1px;
-	font-family: "Times New Roman", Times, serif;
+	float          : left;
+	font-size      : 1.7em;
+	color          : #ffffff;
+	letter-spacing : -1px;
+	font-family    : "Times New Roman", Times, serif;
 }
 
 #logo:hover {
-	color:darkgrey;
-	text-decoration: none;
+	color           : darkgrey;
+	text-decoration : none;
+}
+
+.center {
+	text-align: center;
+}
+
+.jumbotron {
+	background-image : asset-url('yo.jpg');
+	background-size  : cover;
+	height           : 550px;
+}
+
+.jumbotron h1 {
+	color          : #fff;
+	text-align     : center;
+	margin-bottom  : 30px;
+	letter-spacing : -1px;
+	font-weight    : bold;
+}
+
+.footer {
+	margin-top     : 45px;
+	padding-bottom : 5px;
+	border-top     : 1px solid;
+	color          : #262626;
 }
