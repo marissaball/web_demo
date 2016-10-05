@@ -36,9 +36,29 @@ $navbar-default-bg: #262626;
 	font-weight    : bold;
 }
 
-.footer {
+footer {
 	margin-top     : 45px;
 	padding-bottom : 5px;
 	border-top     : 1px solid;
 	color          : #262626;
 }
+
+footer a:hoover {
+	color: #222;
+}
+
+footer small {
+	float:left;
+}
+
+footer ul {
+	float      : right;
+	list-style : none;
+	margin-left: 15px;
+}
+
+.box {
+		height   : 425px;
+		width    : 55%;
+		margin   : 25px;
+	}
