@@ -7,6 +7,11 @@ Rails.application.routes.draw do
 
 root'pages#home'
 get 'about', to: 'pages#about'
+get 'sketch', to: 'pages#sketch'
+get 'adobe', to: 'pages#adobe'
+get 'games', to: 'pages#games'
+get 'app', to: 'pages#app'
+get 'infosec', to: 'pages#infosec'
 
 resources :articles
 
