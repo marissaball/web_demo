@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -6,11 +7,11 @@ Rails.application.routes.draw do
   # root 'welcome#index'
 
 root'pages#home'
-get 'about', to: 'pages#about'
-get 'sketch', to: 'pages#sketch'
-get 'adobe', to: 'pages#adobe'
-get 'games', to: 'pages#games'
-get 'app', to: 'pages#app'
+get 'about',   to: 'pages#about'
+get 'sketch',  to: 'pages#sketch'
+get 'adobe',   to: 'pages#adobe'
+get 'games',   to: 'pages#games'
+get 'app',     to: 'pages#app'
 get 'infosec', to: 'pages#infosec'
 
 resources :articles

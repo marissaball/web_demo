@@ -36,6 +36,12 @@ $navbar-default-bg: #262626;
 	font-weight    : bold;
 }
 
+.jumbotron_adobe {
+	background-image : asset-url('k02.jpg');
+	background-size  : contain;
+	height           : 400px;
+}
+
 footer {
 	margin-top     : 45px;
 	padding-bottom : 5px;
@@ -62,3 +68,14 @@ footer ul {
 		width    : 55%;
 		margin   : 25px;
 	}
+
+.banner{
+	background              : #001238;
+	background-size         : cover;
+	-webkit-background-size : cover;
+	-o-background-size      : cover;
+	-moz-background-size    : cover;
+	min-height              : 200px;
+	opacity: 40%;
+}
+
