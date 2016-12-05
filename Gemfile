@@ -6,6 +6,9 @@ source 'https://rubygems.org'
 # Use sqlite3 as the database for Active Record
 
 # Use SCSS for stylesheets
+# 
+  	gem 'carrierwave', '>= 1.0.0.rc', '< 2.0'
+ 	gem 'mini_magick', '~> 4.3'
 	gem 'bootstrap-sass', '~> 3.3.6'
 	gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -40,9 +43,6 @@ group :development, :test do
 
     # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
-  
-  gem 'carrierwave', '>= 1.0.0.rc', '< 2.0'
-  gem 'mini_magick', '~> 4.3'
   
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
