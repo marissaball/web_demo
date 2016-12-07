@@ -14,7 +14,7 @@ $navbar-default-bg: #262626;
 }
 
 #logo:hover {
-	color           : #faebd7;
+	color           : #e4fde2;
 	text-decoration : none;
 }
 
@@ -63,5 +63,7 @@ footer ul {
 	height     : 480px;
 	box-shadow : 0 6px 20px 0 black;
 	margin     : auto;
+	padding: auto;
+	border-radius: 7px;
 }
 
