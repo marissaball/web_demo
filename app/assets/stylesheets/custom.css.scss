@@ -37,6 +37,15 @@ $navbar-default-bg: #262626;
 	text-shadow: 0 0 9px #363636;
 }
 
+.article-actions {
+	border-top  : 1px solid #eaeaea;
+	padding-top : 5px;
+}
+
+.description {
+	margin-top: 0;
+}
+
 footer {
 	margin-top     : 45px;
 	padding-bottom : 5px;
@@ -59,11 +68,11 @@ footer ul {
 }
 
 .box {
-	width      : 100%;
-	height     : 480px;
-	box-shadow : 0 6px 20px 0 black;
-	margin     : auto;
-	padding: auto;
-	border-radius: 7px;
+	width         : 100%;
+	height        : 480px;
+	box-shadow    : 0 6px 20px 0 black;
+	margin        : auto;
+	padding       : auto;
+	border-radius : 7px;
 }
 
