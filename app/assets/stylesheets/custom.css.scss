@@ -57,6 +57,15 @@ $navbar-default-bg: #262626;
 	padding-bottom : 15px;
 }
 
+.box {
+	width         : 100%;
+	height        : 480px;
+	box-shadow    : 0 6px 20px 0 black;
+	margin        : auto;
+	padding       : auto;
+	border-radius : 7px;
+}
+
 footer {
 	margin-top     : 45px;
 	padding-bottom : 5px;
@@ -77,13 +86,3 @@ footer ul {
 	list-style : none;
 	margin-left: 15px;
 }
-
-.box {
-	width         : 100%;
-	height        : 480px;
-	box-shadow    : 0 6px 20px 0 black;
-	margin        : auto;
-	padding       : auto;
-	border-radius : 7px;
-}
-
